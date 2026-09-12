@@ -1,21 +1,12 @@
-# Omar Farah — Public Health Portfolio
+# Omar Farah Portfolio
 
-A responsive personal portfolio for Omar Farah, Public Health Professional.
+Public Health Professional portfolio for GitHub Pages.
 
-## Sections
-- Home
-- About
-- Skills
-- Projects & Research
-- Certificates
-- Contact
+Files:
+- index.html
+- styles.css
+- script.js
+- assets/profile.jpg
 
-## Colors
-- Primary: #4CAF50
-- Background: #E8F5E9
-- Accent: #C836C9
-- Text: #1F2937
-- White: #FFFFFF
-
-## GitHub Pages
-Upload the contents of this folder to the portfolio repository and enable GitHub Pages from the repository settings.
+GitHub Pages URL:
+https://moogeyare.github.io
