@@ -1,19 +1,14 @@
-# Omar Farah — Public Health Portfolio V5
+# Omar Farah — Public Health Portfolio V7
 
-A modern, responsive portfolio for Omar Farah (@moogeyare).
+Updated from the user's requested edits.
 
-## Included
-- Dark blue/cyan modern hero inspired by the supplied portfolio references
-- Omar Farah name + @moogeyare brand
-- 4+ years experience badge
-- Animated portrait with rings and floating labels
-- Social/personal icons
-- English + Somali About Me
-- Education, Experience, Skills, Portfolio and Certificates
-- CV download
-- Email, WhatsApp, Facebook and GitHub contact links
-- Responsive mobile navigation
-- Scroll reveal and hover animations
+- Real supplied profile photo included at `assets/profile.jpg`
+- About section text simplified
+- Requested heading text removed/updated
+- “What I Do” section with visual covers
+- Animated buttons
+- Dark/light mode switch in the top-right
+- Responsive mobile layout preserved
+- CV download and contact/social links included
 
-## GitHub Pages
-Upload these files to the top level of `moogeyare.github.io`, keeping `assets/profile.jpg` inside the `assets` folder.
+Upload ALL files and the `assets` folder to the top level of `moogeyare.github.io`.

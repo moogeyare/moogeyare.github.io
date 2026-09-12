@@ -1,3 +1,19 @@
+
+const themeToggle=document.getElementById("themeToggle");
+const savedTheme=localStorage.getItem("omar-theme");
+if(savedTheme==="light"){
+  document.body.classList.add("light-mode");
+  if(themeToggle){themeToggle.setAttribute("aria-pressed","true");themeToggle.querySelector(".theme-icon").textContent="☀";}
+}
+if(themeToggle){
+  themeToggle.addEventListener("click",()=>{
+    const light=document.body.classList.toggle("light-mode");
+    localStorage.setItem("omar-theme",light?"light":"dark");
+    themeToggle.setAttribute("aria-pressed",String(light));
+    themeToggle.querySelector(".theme-icon").textContent=light?"☀":"☾";
+  });
+}
+
 const header=document.getElementById("header");
 const progress=document.getElementById("pageProgress");
 const menuBtn=document.getElementById("menuBtn");
