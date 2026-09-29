@@ -64,3 +64,15 @@ body.light-mode{--paper:#f7fbfe;--ink:#102033;background:#f7fbfe;color:#102033}b
 }
 @media(max-width:390px){.container{width:calc(100% - 24px)}.hero-grid{grid-template-columns:minmax(0,1fr) 112px;gap:8px}.hero h1{font-size:41px}.hero-text{font-size:10px}.hero-visual,.photo-stage{width:112px}.photo-frame{width:104px;height:160px;right:3px;top:66px}.ring-1{width:124px;height:124px;right:-6px}.ring-2{width:140px;height:140px;right:-14px;top:27px}.photo-glow{width:125px;height:125px;right:-2px;top:70px}.hero-actions .btn{max-width:145px}.section-heading h2{font-size:36px}.contact-copy h2{font-size:40px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}.reveal{opacity:1;transform:none}.cursor-glow{display:none}}
+
+
+/* Final accessibility refinements */
+:focus-visible { outline: 3px solid var(--cyan); outline-offset: 4px; }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    scroll-behavior: auto !important;
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .01ms !important;
+  }
+}

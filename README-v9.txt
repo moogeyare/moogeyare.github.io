@@ -23,3 +23,12 @@ Main improvements:
 - Contact heading is exactly: Igalasooxidhiidh
 - Dark/light mode, mobile navigation, scroll progress and existing links preserved
 - Reduced-motion accessibility support
+
+
+FINAL AUDIT NOTES
+- Corrected the experience heading to professional wording.
+- Updated the hero introduction and researcher positioning.
+- Corrected the field-role statistic to match the four listed experience entries.
+- Refined the Core Skills heading and Data Analysis description.
+- Added a visible keyboard focus treatment and reduced-motion support.
+- Preserved the supplied profile image and existing GitHub Pages relative asset paths.
