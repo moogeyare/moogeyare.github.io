@@ -32,3 +32,8 @@ FINAL AUDIT NOTES
 - Refined the Core Skills heading and Data Analysis description.
 - Added a visible keyboard focus treatment and reduced-motion support.
 - Preserved the supplied profile image and existing GitHub Pages relative asset paths.
+
+PERSONAL BRAND UPDATE
+- Added a professional brand positioning section with links to research, field experience, skills, and credentials.
+- Updated page title, description, hero positioning, contact CTA, and footer identity.
+- Added a direct link to the public portfolio profile in Contact.
