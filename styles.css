@@ -162,3 +162,115 @@ body.light-mode .theme-toggle{color:#4e5b67}
 }
 .contact-intro{max-width:440px;color:#a9bfd2;font-size:15px;line-height:1.8;margin:-8px 0 28px}
 body.light-mode .contact-intro{color:#64717d}
+
+
+
+/* ── Luxury editorial redesign: Omar Farah ───────────────────────────── */
+:root{
+  --bg:#0B1220;--bg-deep:#080e19;--bg-soft:#F5F2EA;--paper:#F5F2EA;--white:#FFFFFF;
+  --ink:#111827;--text:#f5f2ea;--muted:#9CA3AF;--muted-dark:#9CA3AF;
+  --cyan:#C6A76B;--blue:#C6A76B;--line:rgba(245,242,234,.14);--softline:rgba(17,24,39,.13);
+  --shadow:0 18px 55px rgba(11,18,32,.09);--radius:5px;
+}
+html{scroll-behavior:smooth;scroll-padding-top:88px}
+body{background:#F5F2EA;color:#111827;font-family:Inter,Manrope,Arial,sans-serif;line-height:1.75}
+body:before{background:none}
+::selection{background:#C6A76B;color:#0B1220}
+.container{width:min(1160px,calc(100% - 56px))}
+.page-progress{background:#C6A76B;box-shadow:none;height:2px}
+.header{padding:20px 0;background:rgba(11,18,32,.16)}
+.header.scrolled{background:rgba(11,18,32,.96);border-bottom:1px solid rgba(198,167,107,.2);backdrop-filter:blur(16px);padding:12px 0}
+.brand-mark{border-radius:3px;border-color:rgba(198,167,107,.55);background:transparent;box-shadow:none}
+.brand-mark svg{stroke:#C6A76B}
+.brand strong{font-family:"Playfair Display",Georgia,serif;font-size:19px;font-weight:600;letter-spacing:.01em}
+.brand small{color:#B9B6AF;font-size:9px;letter-spacing:.16em}
+.nav-links{gap:20px}
+.nav-links a{font-size:11px;letter-spacing:.035em;color:#D0D3D8}
+.nav-links a:hover,.nav-links a.active{color:#fff}
+.nav-links a:not(.nav-cta):after{background:#C6A76B;height:1px}
+.nav-cta{border-radius:3px;border-color:rgba(198,167,107,.55);background:transparent;padding:9px 13px}
+.nav-cta:hover{background:rgba(198,167,107,.1);border-color:#C6A76B;box-shadow:none}
+.nav-cta span{color:#C6A76B}
+.theme-toggle{display:none}
+.hero{min-height:740px;padding:150px 0 90px;background:#0B1220;color:#F5F2EA}
+.stars{opacity:.12;background-size:120px 120px;animation:none}
+.hero-orb{filter:blur(0)}
+.orb-a{width:520px;height:520px;right:-190px;top:120px;background:rgba(198,167,107,.035);box-shadow:none;border:1px solid rgba(198,167,107,.1)}
+.orb-b{width:340px;height:340px;left:-210px;bottom:-180px;background:rgba(198,167,107,.025);border:1px solid rgba(198,167,107,.08)}
+.hero-grid{grid-template-columns:minmax(0,1.18fr) minmax(300px,.82fr);gap:70px;align-items:center}
+.hello,.section-tag{font-size:10px;letter-spacing:.2em;font-weight:700;text-transform:uppercase;color:#C6A76B}
+.live-dot{background:#C6A76B;box-shadow:none}
+.hero h1,.section h2,.contact h2{font-family:"Playfair Display",Georgia,serif;letter-spacing:-.045em;font-weight:500}
+.hero h1{font-size:clamp(58px,7vw,94px);line-height:1.02;margin:20px 0 22px}
+.hero h1 span{color:#C6A76B}
+.role-line{color:#C6A76B;letter-spacing:.11em;font-size:10px;line-height:1.9}
+.role-line b{color:#D4D7DC;font-weight:500}
+.hero-text{max-width:570px;color:#C3C8D0;font-size:15px;line-height:1.95}
+.btn{border-radius:3px;font-size:11px;letter-spacing:.04em;padding:14px 19px;transition:transform .25s ease,background .25s ease,border-color .25s ease}
+.btn-primary{background:#C6A76B;color:#0B1220;border:1px solid #C6A76B;box-shadow:none}
+.btn-primary:hover{background:#D7BD8B;border-color:#D7BD8B;transform:translateY(-2px);box-shadow:none}
+.btn-ghost{border:1px solid rgba(245,242,234,.26);background:transparent;color:#F5F2EA}
+.btn-ghost:hover{border-color:#C6A76B;background:rgba(198,167,107,.07);transform:translateY(-2px)}
+.social-row a{border-radius:3px;border-color:rgba(245,242,234,.22);color:#D0D3D8}
+.social-row a svg{stroke:#C6A76B}
+.social-row a:hover{border-color:#C6A76B;background:rgba(198,167,107,.08);transform:translateY(-2px)}
+.hero-visual img,.profile-image,.hero-photo img{border-radius:3px}
+.section{padding:104px 0}
+.section-soft{background:#F5F2EA}
+.section:not(.section-soft):not(.contact){background:#fff}
+.section h2{font-size:clamp(36px,4.5vw,54px);line-height:1.15;color:#111827}
+.section-tag{color:#9B7C45}
+.section-tag.light{color:#C6A76B}
+p{line-height:1.85}
+.about,.education,.experience,.skills,.projects,.certificates{color:#111827}
+.about p,.section-soft p{color:#59616C}
+.card,.project-card,.cert,.skill-card,.timeline-item,.education-card{border-radius:4px!important;box-shadow:none!important;border:1px solid rgba(17,24,39,.12)!important}
+.project-card{background:#fff;transition:transform .25s ease,border-color .25s ease}
+.project-card:hover{transform:translateY(-4px);border-color:rgba(198,167,107,.8)!important}
+.project-top{color:#9B7C45}
+.project-top b,.project-tags span{letter-spacing:.08em}
+.project-tags span{border-radius:2px;background:#F5F2EA;color:#6B6254}
+.project-arrow{color:#9B7C45}
+.cert{background:#fff}
+.cert>span,.cert i{color:#9B7C45}
+.section-soft .cert,.section-soft .project-card{background:#fff}
+.contact{background:#111827;color:#F5F2EA}
+.contact h2{color:#F5F2EA}
+.contact-intro{color:#BFC4CC}
+.contact-list a{border-color:rgba(245,242,234,.16);border-radius:0}
+.contact-list a:hover{border-color:#C6A76B;background:rgba(198,167,107,.045)}
+.contact-list a span,.contact-list a i{color:#C6A76B}
+footer{background:#080E19;border-top:1px solid rgba(198,167,107,.18);color:#A9ADB5}
+footer a{color:#C6A76B}
+.reveal{transition:opacity .65s ease,transform .65s ease}
+a:focus-visible,button:focus-visible{outline:2px solid #C6A76B;outline-offset:4px}
+body.light-mode{background:#F5F2EA;color:#111827}
+body.light-mode .header.scrolled{background:rgba(11,18,32,.96)}
+@media(max-width:1050px){
+ .nav-links{gap:13px}
+ .nav-links a{font-size:10px}
+ .hero-grid{gap:40px}
+}
+@media(max-width:820px){
+ .container{width:min(100% - 36px,680px)}
+ .header{padding:14px 0}
+ .menu{display:block}
+ .nav-links{background:#0B1220;border:1px solid rgba(198,167,107,.2);box-shadow:0 20px 45px rgba(0,0,0,.25)}
+ .nav-links a{font-size:13px}
+ .hero{padding:125px 0 70px;min-height:auto}
+ .hero-grid{grid-template-columns:1fr;gap:38px}
+ .hero h1{font-size:clamp(54px,12vw,78px)}
+ .section{padding:76px 0}
+}
+@media(max-width:520px){
+ .container{width:calc(100% - 32px)}
+ .hero h1{font-size:54px}
+ .role-line{font-size:9px}
+ .hero-actions{gap:10px}
+ .btn{padding:13px 14px}
+ .section h2{font-size:38px}
+}
+@media(prefers-reduced-motion:reduce){
+ *,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
+ .reveal{opacity:1;transform:none}
+}
