@@ -162,3 +162,61 @@ body.light-mode .theme-toggle{color:#4e5b67}
 }
 .contact-intro{max-width:440px;color:#a9bfd2;font-size:15px;line-height:1.8;margin:-8px 0 28px}
 body.light-mode .contact-intro{color:#64717d}
+
+
+/* === MOOGEYARE LUXURY REDESIGN — midnight navy / warm amber / charcoal === */
+:root{
+  --bg:#0B1120; --bg-deep:#070B13; --bg-soft:#17191D; --paper:#0B1120;
+  --white:#F7F2E9; --ink:#F7F2E9; --text:#E7E1D7; --muted:#9D9A94; --muted-dark:#BDB5A9;
+  --cyan:#D9A15B; --blue:#B87936; --line:rgba(232,190,129,.17); --softline:rgba(232,190,129,.16);
+  --shadow:0 20px 60px rgba(0,0,0,.24); --radius:17px;
+}
+html{background:#0B1120}
+body{background:#0B1120;color:#F7F2E9}
+body:before{background:radial-gradient(ellipse at 80% 5%,rgba(179,100,28,.16),transparent 35%),radial-gradient(ellipse at 10% 45%,rgba(22,38,61,.34),transparent 45%)}
+.page-progress{background:linear-gradient(90deg,#B87936,#F4C27A);box-shadow:0 0 14px rgba(217,161,91,.25)}
+.header{background:rgba(8,12,20,.55);backdrop-filter:blur(18px);border-bottom:1px solid rgba(232,190,129,.10)}
+.header.scrolled{background:rgba(7,11,19,.92);border-color:rgba(232,190,129,.18)}
+.brand,.brand-mark{color:#E8B46D}
+a{color:inherit}
+.hero{background:linear-gradient(105deg,rgba(7,11,19,.97) 0%,rgba(11,17,32,.91) 53%,rgba(31,21,13,.76) 100%),url("assets/warm-amber-reference.png") center 43%/cover no-repeat; color:#F7F2E9}
+.hero:after{content:"";position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse at 82% 42%,rgba(226,151,65,.19),transparent 32%);mix-blend-mode:screen}
+.hero h1 span,.section-kicker,.eyebrow,.hero-stat strong{color:#E8B46D!important;text-shadow:none}
+.hero-text,.section-lead{color:#C3C5CA}
+.btn-primary,.button-primary{background:linear-gradient(135deg,#F1C17D,#C88A43);color:#17110A;border:1px solid rgba(255,224,174,.5);box-shadow:0 8px 28px rgba(188,120,48,.15)}
+.btn-primary:hover,.button-primary:hover{background:#F5D09A}
+.btn-secondary,.button-secondary{border-color:rgba(232,190,129,.36);color:#F7F2E9}
+.section,.light-section,.section-light{background:#0B1120!important;color:#F7F2E9!important}
+section{scroll-margin-top:90px}
+section:nth-of-type(even){background:linear-gradient(180deg,#0D1422,#101318)!important}
+section h2,section h3{color:#F7F2E9}
+section p{color:#B9C0CA}
+.skill-card,.project-card,.credential-card,.about-card,.education-card,.experience-card,.contact-card,.stat-card{
+  background:linear-gradient(145deg,rgba(20,24,31,.96),rgba(10,15,24,.98))!important;
+  border:1px solid rgba(218,158,84,.23)!important;border-radius:15px!important;
+  box-shadow:0 14px 38px rgba(0,0,0,.19)!important;color:#F7F2E9!important;
+}
+.skill-card{min-height:285px;padding:21px;transition:transform .28s ease,border-color .28s ease,background .28s ease}
+.skill-card:hover,.project-card:hover,.credential-card:hover{transform:translateY(-4px);border-color:rgba(232,180,109,.6)!important;box-shadow:0 20px 48px rgba(0,0,0,.28)!important}
+.skill-cover{height:65px;margin:-21px -21px 14px;border-radius:14px 14px 8px 8px;color:#F8EBDD;background:linear-gradient(120deg,#282016,#5B3A1D)!important}
+.cover-research,.cover-collection,.cover-analysis,.cover-education,.cover-community,.cover-digital{background:linear-gradient(120deg,#191D25,#49321C)!important}
+.skill-icon{background:rgba(216,157,84,.13)!important;color:#E8B46D!important;border:1px solid rgba(232,180,109,.24)}
+.skill-card h3,.project-card h3,.credential-card h3{color:#F6EFE5!important}
+.skill-card p,.project-card p,.credential-card p,.skill-number{color:#B6BBC4!important}
+.skill-pills span,.project-tags span{background:rgba(217,161,91,.09)!important;border:1px solid rgba(217,161,91,.19)!important;color:#E7C18D!important}
+.job-content h3,.job-content p{color:#F7F2E9}
+.job-content>span{color:#E8B46D}
+.job-index{color:#C5A16F}
+input,textarea,select{background:#111722!important;border:1px solid rgba(218,158,84,.24)!important;color:#F7F2E9!important}
+input::placeholder,textarea::placeholder{color:#9299A4}
+footer{background:#070B13!important;color:#B9C0CA;border-top:1px solid rgba(218,158,84,.17)}
+footer a:hover{color:#E8B46D}
+::selection{background:#B87936;color:#fff}
+@media(max-width:760px){
+ .hero{background-position:58% center;padding-top:120px}
+ .skill-card{min-height:0;padding:18px}
+ .skill-cover{margin:-18px -18px 12px;height:58px}
+}
+@media(prefers-reduced-motion:reduce){
+ *,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;transition-duration:.01ms!important}
+}
